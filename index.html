@@ -1,0 +1,66 @@
+<!doctype html>
+<html class="no-js" lang="">
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <title></title>
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <link rel="apple-touch-icon" href="apple-touch-icon.png">
+  <!-- Place favicon.ico in the root directory -->
+
+  <link rel="stylesheet" href="resources/css/normalize.css">
+  <link rel="stylesheet" href="resources/css/style.css">
+  <link href="https://fonts.googleapis.com/css?family=Quicksand:300,400,500,700" rel="stylesheet">
+</head>
+
+<body>
+  <h1>Weather Now</h1>
+  <form>
+    <input type="text" placeholder="Enter a U.S. city"></input>
+    <button id="go" type="submit">GO</button>
+  </form>
+
+  <main id="weather-results">
+    <h2 id="location-title"></h2>
+    <div class="current-results">
+      <div id="current-temp">
+        <i id="condition"></i>
+        <div class="temp">
+          <span id="temp"></span>
+        </div>
+      </div>
+      <section class="five-day">
+        <div class="days">
+          <!--           <span class="day">Mon</span> -->
+          <span id="day1high" class="high"></span>
+          <span id="day1low" class="low"></span>
+        </div>
+        <div class="days">
+          <!--           <span class="day">Tue</span> -->
+          <span id="day2high" class="high"></span>
+          <span id="day2low" class="low"></span>
+        </div>
+        <div class="days">
+          <!--           <span class="day">Wed</span> -->
+          <span id="day3high" class="high"></span>
+          <span id="day3low" class="low"></span>
+        </div>
+        <div class="days">
+          <!--           <span class="day">Thu</span> -->
+          <span id="day4high" class="high"></span>
+          <span id="day4low" class="low"></span>
+        </div>
+        <div class="days">
+          <!--           <span class="day">Fri</span> -->
+          <span id="day5high" class="high"></span>
+          <span id="day5low" class="low"></span>
+        </div>
+      </section>
+  </main>
+  <script src="resources/js/main.js"></script>
+</body>
+
+</html>
