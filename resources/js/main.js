@@ -7,7 +7,6 @@ let forecastUrl =
   'https://dataservice.accuweather.com/forecasts/v1/daily/5day/';
 const api = '?apikey=2Bi9gzgdvc5vzSI60shGVyPivGKXDzNa';
 
-//DOM VARIABLES
 const displayTemp = document.querySelector('#temp');
 const displayLoc = document.querySelector('#location-title');
 const displayImg = document.querySelector('i');
